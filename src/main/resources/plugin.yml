@@ -1,0 +1,41 @@
+name: UniqueMaps
+version: '1.0-SNAPSHOT'
+main: me.ktchp.uniqueMaps.UniqueMaps
+api-version: '1.21'
+
+commands:
+  signmap:
+    description: Sign the currently held map to prevent unauthorized copying
+    usage: /signmap
+    permission: uniquemaps.sign
+    permission-message: §cYou do not have permission to sign maps.
+
+  unsignmap:
+    description: Unsign the currently held map (only by the original signer)
+    usage: /unsignmap
+    permission: uniquemaps.unsign
+    permission-message: §cYou do not have permission to unsign maps.
+
+  umaps:
+    description: UniqueMaps management commands
+    usage: /umaps <reload|bypass|help>
+    aliases: [um, uniquemaps]
+    permission: uniquemaps.admin
+    permission-message: §cYou do not have permission to use UniqueMaps admin commands.
+
+permissions:
+  uniquemaps.sign:
+    description: Allows the player to sign maps
+    default: true
+
+  uniquemaps.unsign:
+    description: Allows the player to unsign maps
+    default: true
+
+  uniquemaps.admin:
+    description: Allows reloading the plugin and bypassing signature protection
+    default: op
+
+  uniquemaps.bypass:
+    description: Allows bypassing signature restrictions (used internally by /umaps bypass)
+    default: op

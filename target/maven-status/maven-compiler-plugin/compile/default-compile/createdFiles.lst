@@ -1,0 +1,12 @@
+me\ktchp\uniqueMaps\commands\UniqueMapsTabCompleter.class
+me\ktchp\uniqueMaps\commands\SignMapCommand.class
+me\ktchp\uniqueMaps\commands\UnsignMapCommand.class
+me\ktchp\uniqueMaps\listeners\CrafterCopyPrevention.class
+me\ktchp\uniqueMaps\listeners\DropperToCrafterPrevention.class
+me\ktchp\uniqueMaps\listeners\HopperToCrafterPrevention.class
+me\ktchp\uniqueMaps\util\MapUtil.class
+me\ktchp\uniqueMaps\listeners\MapCopyPrevention.class
+me\ktchp\uniqueMaps\commands\UniqueMapsCommand.class
+me\ktchp\uniqueMaps\listeners\CartographyCopyPrevention.class
+me\ktchp\uniqueMaps\listeners\MapLockPreventer.class
+me\ktchp\uniqueMaps\UniqueMaps.class
